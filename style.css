@@ -82,12 +82,14 @@ nav{
 
  }
  .port {
-  
+    
+   display: inline-block;
     margin-top:3%;
     margin-bottom: 3%;
     font-size: 20px;
     font-weight:200;
     color: rgb(255, 255, 255);
+    position: relative;
  }
  .port h1::after{
   content:'';
@@ -95,13 +97,13 @@ nav{
   height:4px;
   background: hsl(189, 63%, 67%);
   position:absolute;
-  left:10%;
-  bottom: 300px;
+  left: 0%;
+  bottom:-5px; 
   transition: 0.5s;
 }
 .port h1:hover::after{
- 
-  width: 180px;
+  
+  width: 100%;
 }
 
  .tab-titles{
@@ -170,14 +172,14 @@ nav{
  
   .work{
     background-color: #ff004f;
-    display: flex;
+    display: flex;  
 
     width: 100%;
-    height: 200%;
+    height: 100%;
     
   }
 .work img{
-    padding: 20px;;
+    padding: 20px;
     width: 100%;
     height: 200%;
     transition: transform 0.5s;
@@ -186,9 +188,5 @@ nav{
    .work:hover img{
     transform:scale(1.1) ;
    }
-   .first{
-    background-color: green;
-    width: 50%;
-    height: 50px;
-   }
+   
    

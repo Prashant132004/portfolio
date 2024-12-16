@@ -11,3 +11,12 @@ var tablinks=document.getElementsByClassName("tab-links");
             event.currentTarget.classList.add("active-link")
            document.getElementById(tabname).classList.add("activetab");
      }
+     document.getElementById('Aboutme').addEventListener('click',function(event){
+        event.preventDefault();
+        document.getElementById('about').scrollIntoView({behaviour:'smooth'});
+     });
+     document.getElementById('projects1').addEventListener('click',function(event){
+        event.preventDefault();
+        document.getElementById('portfolio').scrollIntoView({behaviour:'smooth'});
+     });
+     

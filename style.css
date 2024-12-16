@@ -239,7 +239,7 @@ padding-left: 10%;
    } 
    @media screen and (max-width:576px){
     body{
-      font-size: 125%;
+      font-size: 100%;
     }
     .work-list{
       flex-direction:column;
